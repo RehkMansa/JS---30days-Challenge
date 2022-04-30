@@ -1,0 +1,27 @@
+:root{
+  background-color: #000;
+}
+body{
+  height: 100vh;
+  width: 100vw;
+  cursor: none;
+  overflow: hidden;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  letter-spacing: 5px;
+  word-spacing: 5px;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+.clock{
+  color: #fff;
+  display: flex;
+  font-size: 80px;
+  line-height: 1.5;
+  letter-spacing: 7px;
+  cursor: none;
+}
