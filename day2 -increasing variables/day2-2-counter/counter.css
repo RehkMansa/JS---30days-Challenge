@@ -7,7 +7,7 @@ body {
   width: 100vw;
   /* cursor: none; */
   overflow: hidden;
-  color: #fa8 ;
+  color: #fa8;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -25,14 +25,14 @@ body {
   line-height: 1.5;
   letter-spacing: 7px;
   cursor: none;
-  color: #fff;
+  color: #fff
 }
-.btn__row{
+.btn__row {
   display: flex;
   flex-direction: column;
   margin-left: 30px;
 }
-.btn{
+.btn {
   border: none;
   background: #fa8;
   padding: 12px 25px;
@@ -42,14 +42,14 @@ body {
   font-size: 15px;
   letter-spacing: 3px;
 }
-.btn:nth-child(2){
+.btn:nth-child(2) {
   background-color: hsl(17, 100%, 57%);
   margin: 30px 0;
 }
-.btn:last-child{
+.btn:last-child {
   background-color: hsl(0, 52%, 45%);
 }
 
 .btn:hover {
-  cursor: pointer;  
+  cursor: pointer;
 }
